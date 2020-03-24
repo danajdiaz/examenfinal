@@ -28,6 +28,12 @@ var myApp = new Framework7({
     	url: 'detalleproducto.html',
     	name: 'detalleproducto',
   		},
+		
+		{
+		path: '/perfil/',
+    	url: 'perfil.html',
+    	name: 'perfil',
+  		},
 	]
 });
 

@@ -156,15 +156,15 @@ p{
 	margin-bottom: 5px !important;
 	text-transform: inherit !important;
 }
-.btn-verde{
-	background-color: #0d9f67 !important;
+.btn-negro{
+	background-color: #000 !important;
 	color: #fff !important;
 	display: block !important;
 	text-align: center;
 	width: 100%;
 	border-radius: 0 !important;
 }
-.btn-gris{
+.btn-blanco{
 	background-color: #fff !important;
 	color: #5C5C5E !important;
 	display: block !important;
