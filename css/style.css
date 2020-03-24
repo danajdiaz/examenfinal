@@ -47,27 +47,6 @@ p{
     width: 100px;
 }
 
-.hero-coffee{
-    background-image: url("../img/espresso-bg-2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 20% 0;
-    text-align: center;
-    position: relative;
-}
-.hero-coffee h2{
-    font-size: 34px;
-    font-weight: 600;
-    color: #E4CEAC;
-    margin-bottom: 0;
-}
-.hero-coffee p{
-    font-size: 12px;
-    font-weight: 300;
-    color: #E4CEAC;
-}
-
 .list-menu{
     margin-top: 0 !important;
     color: #C7C7C7;
@@ -86,25 +65,7 @@ p{
 }
 
 
-.hero-drinks{
-    background-image: url("../img/espresso-bg-2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 20% 0;
-    text-align: center;
-    position: relative;
-}
-.hero-drinks h2{
-    font-size: 34px !important;
-    color: #fff !important;
-    font-weight: 600 !important;
-}
-.hero-drinks p{
-    font-size: 14px !important;
-    color: #fff !important;
-    font-weight: 300 !important;
-}
+
 .overlay-drinks{
     background-color: rgba(198,180,150,0.95);
 }
