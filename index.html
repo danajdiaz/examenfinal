@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitApp</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+	
+	
+<body class="color-theme-black">
+	
+	 <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      
+      	<section class="panel panel-left panel-cover">
+			<h3 class="block-title">Fit Menú</h3>
+			<div class="block">
+				<article class="list">
+					<ul>
+						<li>
+							<a href="/cardio/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-coffee"></i>
+								</div>
+								<div class="item-inner">
+								  Cardio
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/piernas/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-wine-glass"></i>
+								</div>
+								<div class="item-inner">
+									Piernas
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/abs/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-wine-glass"></i>
+								</div>
+								<div class="item-inner">
+									Abs
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/Brazos/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-wine-glass"></i>
+								</div>
+								<div class="item-inner">
+									Brazos
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/legs/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-wine-glass"></i>
+								</div>
+								<div class="item-inner">
+									Glúteos
+								</div>
+							</a>
+						</li>
+					</ul>
+				</article>
+				
+			</div>
+		</section>
+      
+
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                	<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+                </div>
+                <div class="title">Menú</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+              <!--<h2 class="block-title">Tìtulo de Contenido</h2>
+              <div class="block block-strong">
+                  <p>Texto de contenido</p>
+              </div>-->
+              <a href="/productos/"> 
+			  <article class="menu bg-cardio">
+              </article>
+			  </a>
+			  <div class="row">
+ 			<article class="col titulo">
+ 				Máquina de Cardio
+			</article>
+			<article class="col precio">
+ 				$120.00
+			</article>
+		</div>
+			  <div class="row">
+				 <article class="col category">
+			  <p>Cardio</p>
+					 </article>
+			  </div>
+			  
+			   <a href="/productos/">  
+              <article class="menu bg-piernas">
+              </article>
+				   </a>
+			  <div class="row">
+ 			<article class="col titulo">
+ 				Leggins deportivas
+			</article>
+			<article class="col precio">
+ 				$30.00
+			</article>
+		</div>
+			   <div class="row">
+				 <article class="col category">
+			  <p>Piernas</p>
+					 </article>
+			  </div>
+              
+          </div><!-- /page-content -->
+            
+        </section>
+          
+          
+      </div>
+    </div>
+    
+    
+    
+    <article class="popup popup-confirm">
+		
+		<div class="view">
+			<div class="page">
+			  <div class="page-content">
+					
+					<div class="block">
+					
+						<div class="icon-done">
+							<i class="material-icons">done</i>
+						</div>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, error!</p>
+						
+						<div class="row">
+							<a href="/home/" class="link button button-fill btn-verde popup-close">Thanks for your Order</a>
+							<a href="/coffee/" class="link button btn-gris popup-close">Continue Shopping</a>
+
+						</div>
+						
+				  	</div>
+					
+			  </div>
+			</div>
+	</div>
+	</article>
+	
+	
+
+	<script src="js/framework7.min.js"></script>
+    <script src="js/my-app.js"></script>
+    
+</body>
+</html>
